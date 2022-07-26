@@ -1,0 +1,12 @@
+0.1 Traces de l'ID
+
+
+Vous accédez au systeme de surveillance du poste de travail et récupérez du matériel vidéo de la cuisine du café.
+ Là, vous trouvez une personne prennant votre tasse du lave-vaisselle. Malheureusemanent, vous ne pouvez pas voir 
+leur visage mais seulement une partie de leur lot d'identification sur la veste. Vous pouvez clairement lire que 
+l'ID contient la séquence de chiffre 814.
+
+Parcourez la base de donnée et trouvez toutes les personnes dont l'ID contient la sous-chaîne 814.
+Pour confirmer que vous avez correctement résolu le challenge, calculez le code la solution et entrez-le dans la 
+case ci-dessous.
+Code de la solution: la somme des numéros d'identification de toutes les personnes concernées.

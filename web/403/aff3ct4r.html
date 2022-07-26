@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>aff3ct4r</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width", initial-scale = 1>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/chargement.png">
+	<style>
+		body{
+			width: 600px;
+		}
+		.container{
+			display: inline-flex;
+			position: relative;
+			left: 600px;
+			top: 250px;
+		}
+		.p_1{
+			border-radius: 50%;
+			width: 50px;
+			height: 45px;
+			background-color: red;
+			animation-name: p1;
+			animation-duration: 2s;
+			animation-fill-mode: forwards;
+			animation-iteration-count: infinite;
+		}
+		@keyframes p1{
+			0%{
+				position: relative;
+				left: 0px;
+			}
+			30%{
+				position: relative;
+				left: 200px;
+			}
+			80%{
+				position: relative;
+				left: -100px;
+			}
+			100%{
+				position: relative;
+				left: 0px;
+			}
+		}
+		.p_2{
+			border-radius: 50%;
+			width: 50px;
+			height: 45px;
+			background-color: blue;
+			animation-name: p2;
+			animation-duration: 2s;
+			animation-fill-mode: forwards;
+			animation-iteration-count: infinite;
+		}
+		@keyframes p2{
+			0%{
+				position: relative;
+				right: 0px;
+			}
+			30%{
+				position: relative;
+				right: 200px;
+			}
+			80%{
+				position: relative;
+				right: -100px;
+			}
+			100%{
+				position: relative;
+				right: 0px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="p_1"></div>
+		<div class="p_2"></div>
+	</div>
+	<!--<p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur.CSD{1n5p3t0r_0f_h7ml_8113f7e2}  occaecat  
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.-->
+	
+</body>
+</html>

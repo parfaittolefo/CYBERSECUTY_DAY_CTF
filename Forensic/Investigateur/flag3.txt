@@ -1,0 +1,1 @@
+Le lieu ou ils sont partie avec le chat: format CSD{pays,ville} tout en minuscule --> CSD{helfrantzkirc,france}
